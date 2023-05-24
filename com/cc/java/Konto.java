@@ -8,7 +8,6 @@ private int multiplikatorGeld;
 public Konto(int kontostandAnfang, int multiplikatorGeld){
     this.kontostandAnfang = kontostandAnfang;
     this.multiplikatorGeld = multiplikatorGeld;
-
 }
 
 public int getKontostandAnfang() {
