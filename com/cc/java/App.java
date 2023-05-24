@@ -14,6 +14,7 @@ public class App {
        output(Integer.toString(konto3.getKontostandAnfang()));
 
        output ("------------------");
+       //beachten: bei dem Programm wird kontostand beim Berechnen nicht geändert, vrgl Lsg
 
        output(Integer.toString(konto1.getKontostandAnfang() * konto1.getMultiplikatorGeld()));
        output(Integer.toString(konto2.getKontostandAnfang() * konto2.getMultiplikatorGeld()));
