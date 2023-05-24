@@ -13,15 +13,15 @@ public class App {
        output(Integer.toString(konto2.getKontostandAnfang()));
        output(Integer.toString(konto3.getKontostandAnfang()));
 
-        output ("------------------");
+       output ("------------------");
 
-        output(Integer.toString(konto1.getKontostandAnfang() * konto1.getMultiplikatorGeld()));
-        output(Integer.toString(konto2.getKontostandAnfang() * konto2.getMultiplikatorGeld()));
-        output(Integer.toString(konto3.getKontostandAnfang() * konto3.getMultiplikatorGeld()));
+       output(Integer.toString(konto1.getKontostandAnfang() * konto1.getMultiplikatorGeld()));
+       output(Integer.toString(konto2.getKontostandAnfang() * konto2.getMultiplikatorGeld()));
+       output(Integer.toString(konto3.getKontostandAnfang() * konto3.getMultiplikatorGeld()));
  }
 
 
-    public static void output(String outputStr) {
+    private static void output(String outputStr) {
         System.out.println(outputStr);
     } 
 
